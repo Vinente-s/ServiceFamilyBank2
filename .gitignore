@@ -1,0 +1,66 @@
+# ===== Build / Debug =====
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+artifacts/
+
+# Logs
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# ===== Visual Studio =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Cache e arquivos temporários do VS
+ipch/
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.sdf
+*.cache
+*.tlog
+
+# ===== Test / Coverage =====
+[Tt]est[Rr]esult*/
+coverage*/
+*.coverage
+*.coveragexml
+
+# ===== Publicação / Deploy =====
+publish/
+*.pubxml
+*.publishproj
+*.azurePubxml
+
+# ===== NuGet =====
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ===== Node / Frontend (se aplicável) =====
+node_modules/
+
+# ===== Docker (opcional) =====
+docker-compose.override.yml
+
+# ===== Sistema Operacional =====
+.DS_Store
+Thumbs.db
+Desktop.ini
